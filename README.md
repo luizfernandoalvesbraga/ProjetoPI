@@ -1,6 +1,6 @@
 # ProjetoPI
 ###Comandos Git###
-```
+
 *Usei o exemplo que o José deu do ProjetoLoja
 ```
 * clone <url repositório> = baixa o projeto do repositório informado
@@ -50,27 +50,42 @@ git push
 ```
 git push heroku master
 ```
-```
+
 * Para rodar o programa é necessario instalar as dependencias
 **para instalar as dependencias vc tem que ir para pasta do projeto
 **se estiver no desktop
 ```
 cd desktop/projetopi
+```
 **dentro do projeto
+```
 npm install
+```
 **instalar o express
+```
 npm install -g express
+```
 **instalar o mongodb
+```
 npm install -g mongodb
 ```
+ou
+```
 npm install -g mongoose
+```
 **instalar o nodejs
+```
 npm install -g nodejs
 ```
 *apos instalar as dependencias e o que precisa vc deve inicializar o banco primeiro
+```
 mongo
+```
 *inicializado o banco vc pode rodar a aplicacao "Lembrando que tem que estar dentro do diretorio do projeto"
+```
 node app
 ```
 ***ou
+```
 nodemon app
+```
