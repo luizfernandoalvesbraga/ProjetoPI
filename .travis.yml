@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: 050f3464-8b83-4c2f-8223-967e4b35c58a
-  app: rprojeto-pi
+    secure: 8d8b31bf-ade7-46e9-a0e9-19c971785ad5
+  app: projeto-pi
   on:
     repo: luizfernandoalvesbraga/ProjetoPI
