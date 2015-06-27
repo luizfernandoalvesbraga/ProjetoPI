@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "0.12"
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: projeto-pi
