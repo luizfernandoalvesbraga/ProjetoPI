@@ -1,8 +1,9 @@
 language: node_js
 node_js:
   - "0.12"
-deploy:
-  provider: openshift
-  user : "luizalvesbraga"
-  password : "LFab3693"
-  # can be encrypted domain : "http://trabalhopi-luizalvesbraga.rhcloud.com/"
+  - "0.11"
+  - "0.10"
+  - "0.8"
+  - "0.6"
+  - "iojs"
+  - "iojs-v1.0.4"
