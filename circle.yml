@@ -1,0 +1,9 @@
+machine:
+node:
+version: 0.12.5
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: projeto-pi
