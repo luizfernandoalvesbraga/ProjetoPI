@@ -1,10 +1,19 @@
 {
-  "name": "Luiz",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app.js"
+    "name": "ProjetoPI",
+    "version": "1.0.0",
+    "description": "Projeto PI",
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luizfernandoalvesbraga/ProjetoPI"
   },
+    "scripts": {
+        "start": "node app.js",
+        "test": "./node_modules/mocha/bin/mocha"
+    },
+    "engines": {
+        "node": "ˆ0.12.2"
+    },
   "dependencies": {
     "body-parser": "^1.5.2",
     "errorhandler": "^1.1.1",
@@ -19,6 +28,10 @@
     "mongoose": "*",
     "express-flash": "*",
     "cookie-parser": "*",
-    "moment": "*"
+    "moment": "*",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3",
+    "accounting": "^0.4.1",
+    "ejs": "^2.3.1"
   }
 }

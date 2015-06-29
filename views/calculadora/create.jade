@@ -1,0 +1,16 @@
+extends ../layout
+
+block content
+
+h1 Calculadora
+    hr
+    br
+form(method="POST", action="/calculadora", role="form")
+    input(type="hidden", name="operacao", value="operacao")
+    label Numero 1:
+    input(type="text", name="numero1", class="form-control")
+    label Número 2:
+    input(type="text", name="numero2", class="form-control")
+    input(type="submit", value="Calcular", class="btn btn-success")
+
+if(typeof(resultado) != 'undefined'){p O resultado é  = resultado.}

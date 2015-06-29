@@ -21,7 +21,7 @@ mongoose.connect('mongodb://localhost/waibtec-master', function(err){
 });
 
 app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+app.set('view engine', 'jade','ejs');
 
 app.use(logger('dev'));
 app.use(methodOverride());
